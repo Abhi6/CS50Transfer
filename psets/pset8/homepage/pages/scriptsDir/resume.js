@@ -1,1 +1,1 @@
-console.log('resume testing')
+let entryInformation = document.querySelectorAll("p")
