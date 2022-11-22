@@ -9,12 +9,15 @@ h3 {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
+    transition: transform 3s;
+    transition: top 0.5s;
 }
 
 p {
     text-align: center;
-    visibility: hidden;
+    opacity: 0;
     z-index: -1;
+    transition: opacity 3s;
 }
 
 #link-btn {
