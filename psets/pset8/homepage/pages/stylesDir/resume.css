@@ -9,8 +9,7 @@ h3 {
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    transition: transform 3s;
-    transition: top 0.5s;
+    transition: top 0.1s;
 }
 
 p {
@@ -46,9 +45,9 @@ img.resume-entry-img {
 }
 
 .entry-content {
-    border-style: solid;
-    border-color: white;
-    border-width: 5px;
+    /* border-style: solid; */
+    /* border-color: white; */
+    /* border-width: 5px; */
     border-radius: 5px;
     margin-bottom: 10px;
     margin: auto;

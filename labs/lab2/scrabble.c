@@ -4,7 +4,7 @@
 
 int compute_score(string word);
 int const POINTS[26] = {1,3,3,2,1,4,2,4,1,8,5,1,3,1,1,3,10,1,1,1,1,4,4,8,4,10};         // array containing the point of each letter
-
+// comment for repo commit
 int main(void)
 {
     string player1 = get_string("Player 1: ");
