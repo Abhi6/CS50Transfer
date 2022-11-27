@@ -10,13 +10,13 @@ h3 {
     left: 50%;
     top: 50%;
     transition: top 0.1s;
+    width: 100%;
 }
 
 p {
     text-align: center;
     opacity: 0;
     z-index: -1;
-    transition: opacity 3s;
 }
 
 #link-btn {
