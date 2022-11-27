@@ -45,13 +45,15 @@ img.resume-entry-img {
 }
 
 .entry-content {
-    /* border-style: solid; */
-    /* border-color: white; */
-    /* border-width: 5px; */
     border-radius: 5px;
     margin-bottom: 10px;
     margin: auto;
     position: relative;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+.btn-pos {
+    top: 65%;
+    transition: top 0.5s;
 }
