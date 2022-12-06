@@ -14,8 +14,8 @@ for (var i = 0; i < entryInformation.length; i = i + 1) {
         // glide the button
         entryBtn.style.transition = "top 0.5s";
         entryBtn.style.top = "80%";
-
     });
+
     entryInformation[i].addEventListener("mouseout", function() {
         let entryTitle = this.querySelector("h3");
         let entryParagraph = this.querySelector("p");
