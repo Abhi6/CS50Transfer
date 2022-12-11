@@ -1,0 +1,23 @@
+.container-personal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index = 0;
+}
+.unit:hover {
+    border-radius: 15%;
+    transform: scale(1.3);
+    z-index = 3;
+}
+p {
+    color: black;
+}
