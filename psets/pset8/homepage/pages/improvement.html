@@ -12,17 +12,47 @@
         <h1 class="header-top"><b>Self Improvement</b></h1>
     </header>
     <body>
-        <div class="item" style="background-color:red; height:100px; width:100px; border-radius:50%; position:relative">
-            <h4 style="position:absolute; top: 50%; left: 50%; transform:translate(-50%,-50%);">Gym</h4>
-        </div>
-        <div class="item">
-            <h4>Boxing</h4>
-        </div>
-        <div class="item">
-            <h4>Meditation</h4>
-        </div>
-        <div class="item">
-            <h4>Diet</h4>
+        <div class="container">
+            <div id="self-improvement-carousel" class="carousel slide w-50" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="improvement_images/boxing-gloves.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Boxing</h3>
+                            <p>You must become dangerous. Otherwise, you are harmless.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="improvement_images/weightlifting-barbell.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Weightlifting</h3>
+                            <p>Strength is important. Building a physique is important.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="improvement_images/open-book.jpeg" class="d-block w-100 colored" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Reading</h3>
+                            <p>Knowledge is power. Making money. Hacking. Life.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img id="meditating-warrior-img" src="improvement_images/meditation-warrior.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Meditation</h3>
+                            <p>To stay in control of your emotions. Self-control. Staying calm. Focus.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#self-improvement-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#self-improvement-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </body>
     <footer>

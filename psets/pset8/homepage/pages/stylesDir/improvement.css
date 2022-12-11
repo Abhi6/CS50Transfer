@@ -1,1 +1,13 @@
-/* Create classes to create rotating circles */
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+img {
+    opacity: 0.5;
+}
+.colored {
+    filter: grayscale(100%);
+}
