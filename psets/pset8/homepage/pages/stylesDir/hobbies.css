@@ -37,3 +37,68 @@
     }
 }
 
+.hobby-list .hobby:nth-child(1) {
+    animation: color-change-1 5s ease infinite;
+}
+
+.hobby-list .hobby:nth-child(2) {
+    animation: color-change-2 5s ease infinite;
+}
+
+.hobby-list .hobby:nth-child(3) {
+    animation: color-change-3 5s ease infinite;
+}
+
+@keyframes color-change-1 {
+    0% {
+        color:red;
+    }
+    10% {
+        color: red;
+    }
+    40% {
+        color:white;
+    }
+    70% {
+        color:white;
+    }
+    100% {
+        color:red;
+    }
+}
+
+@keyframes color-change-2 {
+    0% {
+        color:white;
+    }
+    10% {
+        color:white;
+    }
+    40% {
+        color:green;
+    }
+    70% {
+        color:white;
+    }
+    100% {
+        color:white;
+    }
+}
+
+@keyframes color-change-3 {
+    0% {
+        color:white;
+    }
+    10% {
+        color:white;
+    }
+    40% {
+        color:white;
+    }
+    70% {
+        color:yellow;
+    }
+    100% {
+        color:white;
+    }
+}
