@@ -9,6 +9,26 @@
     position: absolute;
     margin-left: -20%;
     font-size: 40px;
+    animation: dash-in 5s ease infinite;
+}
+
+@keyframes dash-in {
+    0% {
+        transform: translate(0, -500px);
+        opacity: 0;
+    }
+    25% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    75% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 500px);
+        opacity:0;
+    }
 }
 
 .hobby {
@@ -23,17 +43,20 @@
 }
 
 @keyframes scroll {
-    10% {
+    0% {
+        transform: translate(0, 90px);
+    }
+    25% {
         transform: translate(0, 45px);
     }
-    40% {
-        transform: translate(0,0px);
+    50% {
+        transform: translate(0, 0);
     }
-    70% {
-        transform: translate(0,-45px);
+    75% {
+        transform: translate(0, -45px);
     }
     100% {
-        transform: translate(0,45px);
+        transform: translate(0, -90px);
     }
 }
 
@@ -51,54 +74,54 @@
 
 @keyframes color-change-1 {
     0% {
-        color:red;
+        opacity:0;
     }
-    10% {
-        color: red;
+    25% {
+        opacity:1;
     }
-    40% {
-        color:white;
+    50% {
+        opacity: 0;
     }
-    70% {
-        color:white;
+    75% {
+        opacity:0;
     }
     100% {
-        color:red;
+        opacity:0;
     }
 }
 
 @keyframes color-change-2 {
     0% {
-        color:white;
+        opacity:0;
     }
-    10% {
-        color:white;
+    25% {
+        opacity:0;
     }
-    40% {
-        color:green;
+    50% {
+        opacity: 1;
     }
-    70% {
-        color:white;
+    75% {
+        opacity:0;
     }
     100% {
-        color:white;
+        opacity:0;
     }
 }
 
 @keyframes color-change-3 {
     0% {
-        color:white;
+        opacity:0;
     }
-    10% {
-        color:white;
+    25% {
+        opacity:0;
     }
-    40% {
-        color:white;
+    50% {
+        opacity: 0;
     }
-    70% {
-        color:yellow;
+    75% {
+        opacity:1;
     }
     100% {
-        color:white;
+        opacity:0;
     }
 }
