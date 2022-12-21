@@ -1,0 +1,39 @@
+.sentence-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentence-beginning {
+    position: absolute;
+    margin-left: -20%;
+    font-size: 40px;
+}
+
+.hobby {
+    width: 100%;
+    margin-left: 27%;
+    font-size: 40px;
+}
+
+.hobby-list {
+    transform: translate(0, 45px);
+    animation: scroll 5s ease infinite;
+}
+
+@keyframes scroll {
+    10% {
+        transform: translate(0, 45px);
+    }
+    40% {
+        transform: translate(0,0px);
+    }
+    70% {
+        transform: translate(0,-45px);
+    }
+    100% {
+        transform: translate(0,45px);
+    }
+}
+
