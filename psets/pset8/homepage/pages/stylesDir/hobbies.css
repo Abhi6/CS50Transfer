@@ -9,26 +9,6 @@
     position: absolute;
     margin-left: -20%;
     font-size: 40px;
-    animation: dash-in 5s ease infinite;
-}
-
-@keyframes dash-in {
-    0% {
-        transform: translate(0, -500px);
-        opacity: 0;
-    }
-    25% {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-    75% {
-        transform: translate(0,0);
-        opacity: 1;
-    }
-    100% {
-        transform: translate(0, 500px);
-        opacity:0;
-    }
 }
 
 .hobby {
