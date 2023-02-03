@@ -1,0 +1,41 @@
+.header-top {
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px red;
+    transition: font-size 2s;
+    color: #fc0000;
+}
+
+.header-top:hover {
+    font-size: 100px;
+}
+
+.card {
+    width: 18rem;
+    border-width: 10px;
+    border-color: gray;
+    transition: border-color 1s, width 1s;
+    padding: 10px;
+    background-color: red;
+}
+
+.card:hover {
+    border-color: red;
+    border-color: orange;
+    width: 19rem;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+i {
+    color: white;
+}
+
+#back-btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

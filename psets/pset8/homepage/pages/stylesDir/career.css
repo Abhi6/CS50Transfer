@@ -1,0 +1,30 @@
+.scrollspy {
+    position: relative;
+    height: 300px;
+    overflow: auto;
+}
+h3 {
+    text-align: center;
+}
+.container-personal {
+    display: block;
+    border: solid gray 10px;
+    width: 820px;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 10px 10px 2px 2px #fff;
+}
+.circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 70px 20px white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.5;
+}

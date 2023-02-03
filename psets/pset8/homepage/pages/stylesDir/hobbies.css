@@ -1,0 +1,219 @@
+.sentence-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentence-beginning {
+    position: absolute;
+    margin-left: -20%;
+    margin-top: -15%;
+    font-size: 40px;
+}
+
+.hobby {
+    width: 100%;
+    margin-left: 27%;
+    font-size: 40px;
+}
+
+.hobby-list {
+    margin-top: -15.2%;
+    transform: translate(0, 45px);
+    animation: scroll 10s ease infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0, 90px);
+    }
+    25% {
+        transform: translate(0, 60px);
+    }
+    50% {
+        transform: translate(0, 0);
+    }
+    75% {
+        transform: translate(0, -60px);
+    }
+    100% {
+        transform: translate(0, -90px);
+    }
+}
+
+.hobby-list .hobby:nth-child(1) {
+    animation: color-change-1 10s ease infinite;
+}
+
+.hobby-list .hobby:nth-child(2) {
+    animation: color-change-2 10s ease infinite;
+}
+
+.hobby-list .hobby:nth-child(3) {
+    animation: color-change-3 10s ease infinite;
+}
+
+@keyframes color-change-1 {
+    0% {
+        opacity:0;
+        filter:blur(25px);
+    }
+    25% {
+        opacity:1;
+        filter:blur(0px);
+    }
+    50% {
+        opacity: 0;
+        filter:blur(25px);
+    }
+    75% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes color-change-2 {
+    0% {
+        opacity:0;
+    }
+    25% {
+        opacity:0;
+        filter:blur(25px);
+    }
+    50% {
+        opacity: 1;
+        filter:blur(0px);
+    }
+    75% {
+        opacity:0;
+        filter:blur(25px);
+    }
+    100% {
+        opacity:0;
+    }
+}
+
+@keyframes color-change-3 {
+    0% {
+        opacity:0;
+    }
+    25% {
+        opacity:0;
+    }
+    50% {
+        opacity: 0;
+        filter:blur(25px);
+    }
+    75% {
+        opacity:1;
+        filter:blur(0px);
+    }
+    100% {
+        opacity:0;
+        filter:blur(25px);
+    }
+}
+
+img {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+}
+
+img:nth-child(1) {
+    animation: volleyball-bg 10s ease infinite;
+}
+
+img:nth-child(2) {
+    animation: rubiks-cube-bg 10s ease infinite;
+}
+
+img:nth-child(3) {
+    animation: chess-bg 10s ease infinite;
+}
+
+@keyframes volleyball-bg {
+    0% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    5% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    25% {
+        opacity: 0.3;
+        filter:blur(0px);
+    }
+    45% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rubiks-cube-bg {
+    0% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    75% {
+        opacity: 0.3;
+        filter:blur(0px);
+    }
+    95% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes chess-bg {
+    0% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    25% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    50% {
+        opacity: 0.3;
+        filter:blur(0px);
+    }
+    70% {
+        opacity: 0;
+        filter:blur(90px);
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}

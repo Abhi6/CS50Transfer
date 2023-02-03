@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    transition: top 0.1s;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    opacity: 0;
+    z-index: -1;
+}
+
+#link-btn {
+    position: absolute;
+    left: 200px;
+}
+
+#square-shootr-btn {
+    position: absolute;
+    left: 275px;
+}
+
+#back-btn {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+img.resume-entry-img {
+    width: 50rem;
+    border-style: solid;
+    border-width: 20px;
+    border-color: gray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.entry-content {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.btn-pos {
+    top: 65%;
+    transition: top 0.5s;
+}
