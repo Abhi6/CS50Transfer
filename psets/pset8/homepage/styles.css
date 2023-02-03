@@ -3,6 +3,7 @@
     color: gray;
     text-shadow: 2px 2px red;
     transition: font-size 2s;
+    color: #fc0000;
 }
 
 .header-top:hover {
